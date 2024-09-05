@@ -45,7 +45,7 @@ const Navbar = () => {
           <div className="flex flex-col items-center list-none py-8 text-left md:hidden ">
             {navItems.map((item, index) => {
               return (
-                <li key={item.index} className="py-4">
+                <li key={index} className="py-4">
                   <a href={item.href}>{item.label}</a>
                 </li>
               );
